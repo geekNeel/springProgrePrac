@@ -1,11 +1,10 @@
 # SpringProgrePrac 
 > please do ignore project name 😉
-## This prject is created to study following things with Spring Boot
+## This project is created to learn following things with Spring Boot
 
-1. Docker
-2. Postgres
-3. Audit
-4. Swagger 3 
+1. Postgres using Docker
+2. Audit
+3. Swagger 3 
 
 
 
