@@ -7,7 +7,7 @@ services:
     environment:
       POSTGRES_USER: root
       POSTGRES_PASSWORD: root123
-      POSTGRES_DATABASE: healthcare
+      POSTGRES_DATABASE: postgres
       PGDATA: /data/postgres
     ports:
       - "5432:5432"

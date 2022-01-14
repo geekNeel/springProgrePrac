@@ -8,8 +8,12 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 import com.example.spd.springpostgredocker.model.SpringSecurityAuditorAware;
 
+import io.swagger.v3.oas.annotations.OpenAPIDefinition;
+import io.swagger.v3.oas.annotations.info.Info;
+
 @SpringBootApplication
 @EnableJpaAuditing(auditorAwareRef = "auditorAware")
+@OpenAPIDefinition(info = @Info(title = "Health Care API", version = "2.0", description = "Health Care API Information"))
 public class SpringPostgreDockerApplication {
 	
 	@Bean
