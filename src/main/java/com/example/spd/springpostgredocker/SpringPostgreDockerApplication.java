@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.data.domain.AuditorAware;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
-import com.example.spd.springpostgredocker.model.SpringSecurityAuditorAware;
+import com.example.spd.springpostgredocker.config.SpringSecurityAuditorAware;
 
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.info.Info;

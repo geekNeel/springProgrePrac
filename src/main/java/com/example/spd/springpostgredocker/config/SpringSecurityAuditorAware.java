@@ -1,4 +1,4 @@
-package com.example.spd.springpostgredocker.model;
+package com.example.spd.springpostgredocker.config;
 
 
 import java.util.Optional;
